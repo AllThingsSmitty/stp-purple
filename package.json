@@ -1,0 +1,20 @@
+{
+  "title": "STP Purple",
+  "name": "stp-purple",
+  "description": "A Brackets theme based on the cover of the Stone Temple Pilots album 'Purple'.",
+  "version": "1.0.0",
+  "author": "Matt Smith",
+  "homepage": "https://github.com/AllThingsSmitty/stp-purple",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AllThingsSmitty/stp-purple.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "brackets": ">=1.0.0"
+  },
+  "theme": {
+    "file": "theme.css",
+    "dark": true
+  }
+}
