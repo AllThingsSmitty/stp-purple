@@ -8,200 +8,180 @@
  * Stone Temple Pilots album 'Purple'.
  */
 
-/**
- * STP Purple Color Scheme
- * =======================
-
-  #bdc2b8 Pumice(Grey)
-  #ba250a Harley Davidson Orange(Orange)
-  #8b5c0f Golden Brown(Brown)
-  #dea320 Galliano(Yellow)
-  #f2dc87 Buff(Yellow)
-  #eb7a17 Pumpkin(Orange)
-  #537a97 Waikawa Grey(Blue)
-  #3d2515 Brown Pod(Brown)
-  #e4ab89 Manhattan(Orange)
-  #74702f Crete(Green)
- */
-
-
-
-
-/**
+/*
  * Color Scheme
  * ============
-
-  .cm-string {
-      color: #E6DB74;
-  }
-
-  .cm-error {
-      background: #F92672;
-      color: #F8F8F2 !important;
-  }
-
-  .cm-meta,
-  .cm-comment {
-      color: #75715E;
-  }
-
-  .cm-atom,
-  .cm-number,
-  .cm-link {
-      color: #AE81FF;
-  }
-
-  .cm-property,
-  .cm-attribute,
-  .cm-keyword {
-      color: #66D9EF;
-  }
-
-  .cm-string.cm-property,
-  .cm-variable,
-  .cm-variable-2 {
-      color: #F8F8F2;
-  }
-
-  .cm-variable-3,
-  .cm-qualifier,
-  .cm-builtin {
-      color: #A6E22E;
-  }
-
-  .cm-operator,
-  .cm-tag {
-      color: #F92672;
-  }
-
-  .cm-bracket,
-  .cm-def {
-      color: #F8F8F2;
-  }
-
-  /**
-   * User Interface
-   * ==============
-   *
-   * @TODO Matching words
-   * @TODO Scrollbars
-   * @TODO Find highlights
-   
-  .CodeMirror,
-  .CodeMirror .CodeMirror-scroll {
-      background: #222;
-      color: #F8F8F2;
-  }
-
-  #not-editor,
-  #image-holder {
-      background-color: #222;
-      color: #F8F8F2;
-      transition: background-color 0.3s ease-out;
-  }
-
-  .CodeMirror {
-      border-left-color: #1B1B1B;
-  }
-
-  div.CodeMirror-selected {
-      background: #444 !important;
-  }
-
-  .CodeMirror-gutters {
-      background: #272822;
-      border-right: 0px;
-  }
-
-  .CodeMirror-guttermarker {
-      color: #F8F8F2;
-  }
-
-  .CodeMirror-guttermarker-subtle {
-      color: #272822;
-  }
-
-  .CodeMirror-linenumber {
-      color: #8D8D8A;
-  }
-
-  .CodeMirror-cursor {
-      border-left: 1px solid #f8f8f0 !important;
-  }
-
-  .CodeMirror-activeline-background,
-  .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-      background: #373831 !important;
-  }
-
-  .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-      color: #F8F8F2;
-  }
-
-  .CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
-      color: #767676;
-  }
-
-  .CodeMirror-matchingbracket {
-      background-color: transparent !important;
-      border-bottom: 1px solid; /* text-decoration: underline does not look that well with large font sizes 
-      color: #FFF !important;
-      padding-bottom: 0.166em;
-  }
-
-  .CodeMirror-matchingtag {
-      background-color: transparent;
-      border-bottom: 1px solid #F8F8F2; /* text-decoration: underline does not look that well with large font sizes 
-      padding-bottom: 0.166em;
-  }
-
-  /**
-   * Extensions
-   * ==========
-   */
-
-  /*
-   * Brackets-Vim (https://github.com/megalord/brackets-vim)
-   * -------------------------------------------------------
-   
-  .CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {
-      background: rgba(248, 248, 242, 0.5) !important;
-  }
-
-  /**
-   * Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace)
-   * --------------------------------------------------------------------------
-   
-  .CodeMirror .cm-dk-whitespace-space::before,
-  .CodeMirror .cm-dk-whitespace-tab::before,
-  .CodeMirror .cm-dk-whitespace-leading-space::before,
-  .CodeMirror .cm-dk-whitespace-leading-tab::before,
-  .CodeMirror .cm-dk-whitespace-trailing-space::before,
-  .CodeMirror .cm-dk-whitespace-trailing-tab::before {
-      background-color: #75715E !important;
-  }
-
-  /**
-   * Code Folding (https://github.com/thehogfather/brackets-code-folding)
-   * --------------------------------------------------------------------
-   
-  .CodeMirror-foldgutter,
-  .CodeMirror-foldgutter,
-  .CodeMirror-foldgutter-blank,
-  .CodeMirror-foldgutter-folded,
-  .CodeMirror-foldgutter-open {
-      color: #75715E;
-  }
-
-  .CodeMirror-foldgutter-open::after {
-      content: "\25bd";
-  }
-
-  .CodeMirror-foldmarker {
-      background-color: #333;
-      border-color: #555;
-      color: #555;
-      padding: 0 10px;
-  }
-
  */
+.cm-string {
+  color: #e6dB74;
+}
+
+.cm-error {
+  background: #f92672;
+  color: #f8f8f2 !important;
+}
+
+.cm-meta,
+.cm-comment {
+  color: #75715e;
+}
+
+.cm-atom,
+.cm-number,
+.cm-link {
+  color: #ae81ff;
+}
+
+.cm-property,
+.cm-attribute,
+.cm-keyword {
+  color: #66d9ef;
+}
+
+.cm-string.cm-property,
+.cm-variable,
+.cm-variable-2 {
+  color: #f8f8f2;
+}
+
+.cm-variable-3,
+.cm-qualifier,
+.cm-builtin {
+  color: #a6e22e;
+}
+
+.cm-operator,
+.cm-tag {
+  color: #f92672;
+}
+
+.cm-bracket,
+.cm-def {
+  color: #f8f8f2;
+}
+
+/**
+ * User Interface
+ * ==============
+ *
+ * @TODO Matching words
+ * @TODO Scrollbars
+ * @TODO Find highlights
+ */
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+  background: #222;
+  color: #f8f8f2;
+}
+
+#not-editor,
+#image-holder {
+  background-color: #222;
+  color: #f8f8f2;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.CodeMirror {
+  border-left-color: #1b1b1b;
+}
+
+div.CodeMirror-selected {
+  background: #444 !important;
+}
+
+.CodeMirror-gutters {
+  background: #272822;
+  border-right: 0px;
+}
+
+.CodeMirror-guttermarker {
+  color: #f8f8f2;
+}
+
+.CodeMirror-guttermarker-subtle {
+  color: #272822;
+}
+
+.CodeMirror-linenumber {
+  color: #8d8d8a;
+}
+
+.CodeMirror-cursor {
+  border-left: 1px solid #f8f8f0 !important;
+}
+
+.CodeMirror-activeline-background,
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+  background: #373831 !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+  color: #f8f8f2;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+  color: #767676;
+}
+
+.CodeMirror-matchingbracket {
+  background-color: transparent !important;
+  border-bottom: 1px solid; /* text-decoration: underline does not look that well with large font sizes */
+  color: #fff !important;
+  padding-bottom: 0.166em;
+}
+
+.CodeMirror-matchingtag {
+  background-color: transparent;
+  border-bottom: 1px solid #f8f8f2; /* text-decoration: underline does not look that well with large font sizes */
+  padding-bottom: 0.166em;
+}
+
+/**
+ * Extensions
+ * ==========
+ */
+
+/*
+ * Brackets-Vim (https://github.com/megalord/brackets-vim)
+ * -------------------------------------------------------
+ */
+.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {
+  background: rgba(248, 248, 242, 0.5) !important;
+}
+
+/**
+ * Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace)
+ * --------------------------------------------------------------------------
+ */
+.CodeMirror .cm-dk-whitespace-space::before,
+.CodeMirror .cm-dk-whitespace-tab::before,
+.CodeMirror .cm-dk-whitespace-leading-space::before,
+.CodeMirror .cm-dk-whitespace-leading-tab::before,
+.CodeMirror .cm-dk-whitespace-trailing-space::before,
+.CodeMirror .cm-dk-whitespace-trailing-tab::before {
+  background-color: #75715e !important;
+}
+
+/**
+ * Code Folding (https://github.com/thehogfather/brackets-code-folding)
+ * --------------------------------------------------------------------
+ */
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter-blank,
+.CodeMirror-foldgutter-folded,
+.CodeMirror-foldgutter-open {
+  color: #75715e;
+}
+
+.CodeMirror-foldgutter-open::after {
+  content: "\25bd";
+}
+
+.CodeMirror-foldmarker {
+  background-color: #333;
+  border-color: #555;
+  color: #555;
+  padding: 0 10px;
+}
