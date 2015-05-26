@@ -1,63 +1,50 @@
-
-/*------------------------------------*\
-    $BRACKETS THEME
-\*------------------------------------*/
-
-/**
- * This theme is based on the cover of the
- * Stone Temple Pilots album 'Purple'.
- */
-
 /*
  * Color Scheme
  * ============
  */
 .cm-string {
-  color: #e6dB74;
+  color: #f2e780;
 }
 
 .cm-error {
-  background: #f92672;
-  color: #f8f8f2 !important;
+  color: #f2f2db !important;
 }
 
 .cm-meta,
 .cm-comment {
-  color: #75715e;
+  color: #7c7b75;
 }
 
 .cm-atom,
 .cm-number,
 .cm-link {
-  color: #ae81ff;
 }
 
 .cm-property,
 .cm-attribute,
 .cm-keyword {
-  color: #66d9ef;
+  color: #8becff;
 }
 
 .cm-string.cm-property,
 .cm-variable,
 .cm-variable-2 {
-  color: #f8f8f2;
+    color: #f2f2db;
 }
 
 .cm-variable-3,
 .cm-qualifier,
 .cm-builtin {
-  color: #a6e22e;
+    color: #bbe26f;
 }
 
 .cm-operator,
 .cm-tag {
-  color: #f92672;
 }
 
 .cm-bracket,
 .cm-def {
-  color: #f8f8f2;
+    color: #f2f2db;
 }
 
 /**
@@ -70,71 +57,71 @@
  */
 .CodeMirror,
 .CodeMirror .CodeMirror-scroll {
-  background: #222;
-  color: #f8f8f2;
+    background: #222;
+    color: #f2f2db;
 }
 
 #not-editor,
 #image-holder {
-  background-color: #222;
-  color: #f8f8f2;
-  -webkit-transition: background-color 0.3s ease-out;
-  transition: background-color 0.3s ease-out;
+    background-color: #222;
+    color: #f2f2db;
+    -webkit-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
 }
 
 .CodeMirror {
-  border-left-color: #1b1b1b;
+    border-left-color: #212121;
 }
 
 div.CodeMirror-selected {
-  background: #444 !important;
+    background: #444 !important;
 }
 
 .CodeMirror-gutters {
-  background: #272822;
-  border-right: 0px;
+    background: #272822;
+    border-right: 0px;
 }
 
 .CodeMirror-guttermarker {
-  color: #f8f8f2;
+    color: #f2f2db;
 }
 
 .CodeMirror-guttermarker-subtle {
-  color: #272822;
+    color: #272822;
 }
 
 .CodeMirror-linenumber {
-  color: #8d8d8a;
+    color: #9a9a90; /* 9a9a90 */
 }
 
 .CodeMirror-cursor {
-  border-left: 1px solid #f8f8f0 !important;
+    border-left: 1px solid #f8f8f0 !important;
 }
 
 .CodeMirror-activeline-background,
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-  background: #373831 !important;
+    background: #373831 !important;
 }
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-  color: #f8f8f2;
+    color: #f2f2db;
 }
 
 .CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
-  color: #767676;
+    color: #767676;
 }
 
 .CodeMirror-matchingbracket {
-  background-color: transparent !important;
-  border-bottom: 1px solid; /* text-decoration: underline does not look that well with large font sizes */
-  color: #fff !important;
-  padding-bottom: 0.166em;
+    background-color: transparent !important;
+    border-bottom: 1px solid; /* text-decoration: underline does not look that well with large font sizes */
+    color: #fff !important;
+    padding-bottom: 0.166em;
 }
 
 .CodeMirror-matchingtag {
-  background-color: transparent;
-  border-bottom: 1px solid #f8f8f2; /* text-decoration: underline does not look that well with large font sizes */
-  padding-bottom: 0.166em;
+    background-color: transparent;
+    border-bottom: 1px solid #f2f2db; /* text-decoration: underline does not look that well with large font sizes */
+    padding-bottom: 0.166em;
 }
 
 /**
@@ -147,7 +134,7 @@ div.CodeMirror-selected {
  * -------------------------------------------------------
  */
 .CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {
-  background: rgba(248, 248, 242, 0.5) !important;
+    background: rgba(248, 248, 242, 0.5) !important;
 }
 
 /**
@@ -160,7 +147,7 @@ div.CodeMirror-selected {
 .CodeMirror .cm-dk-whitespace-leading-tab::before,
 .CodeMirror .cm-dk-whitespace-trailing-space::before,
 .CodeMirror .cm-dk-whitespace-trailing-tab::before {
-  background-color: #75715e !important;
+    background-color: #7c7b75 !important;
 }
 
 /**
@@ -172,16 +159,16 @@ div.CodeMirror-selected {
 .CodeMirror-foldgutter-blank,
 .CodeMirror-foldgutter-folded,
 .CodeMirror-foldgutter-open {
-  color: #75715e;
+    color: #7c7b75;
 }
 
 .CodeMirror-foldgutter-open::after {
-  content: "\25bd";
+    content: "\25bd";
 }
 
 .CodeMirror-foldmarker {
-  background-color: #333;
-  border-color: #555;
-  color: #555;
-  padding: 0 10px;
+    background-color: #333;
+    border-color: #555;
+    color: #555;
+    padding: 0 10px;
 }
